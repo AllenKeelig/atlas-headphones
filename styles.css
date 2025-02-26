@@ -142,22 +142,90 @@ header {
     gap: 2.75rem;
     justify-content: center;
     padding: 110px;
-  }
+}
 
 .what-we-do_icons i {
     font-size: 6rem;
     color: var(--clr-accent);
-  }
+}
 
 .what-we-do_icons h1 {
     font-size: var(--fs-500);
     font-weight: var(--fw-semibold);
     margin-block: 0.5rem 0.75rem;
-  }  
+}  
 
 .what-we-do_icons p {
     font-size: var(--fs-300);
-  }
+}
+
+.results {
+    background-image: url('images/headphones_hero_2.jpg');
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    color: #FFFFFF;
+    max-width: 100%;
+}
+
+.results-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.results h1 {
+    font-size: 32px;
+    font-weight: 400;
+    margin-bottom: 3%;
+    margin-top: 7%;
+}
+
+.results p {
+    font-size: 16px;
+    width: 600px;
+    margin-bottom: 5%;
+    line-height: 2;
+}
+
+.results-card {
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    margin: 0 auto 5% auto;
+}
+
+.results-icon {
+    position: relative;
+    text-align: center;
+    width: 23%;
+}
+
+.results-icon img {
+    width: 100%;
+    height: auto;
+}
+
+.results-icon h1,
+.results-icon p {
+    position: absolute;
+    width: 100%;
+}
+
+.results-icon h1 {
+    top: 26%;
+    font-size: 46px;
+    font-weight: bold;
+}
+
+.results-icon p {
+    top: 62%;
+    font-size: 14px;
+}
 
 /* glyph font thingy? */
 
@@ -217,6 +285,7 @@ header {
   }
   .holberton_school-icon-ic_hearing:before {
     content: "\e909";
+    color: #FF6565;
   }
   .holberton_school-icon-ic_instagram:before {
     content: "\e90a";
@@ -229,15 +298,18 @@ header {
   }
   .holberton_school-icon-ic_music:before {
     content: "\e90d";
+    color: #FF6565;
   }
   .holberton_school-icon-ic_sound:before {
     content: "\e90e";
+    color: #FF6565;
   }
   .holberton_school-icon-ic_twitter:before {
     content: "\e90f";
   }
   .holberton_school-icon-ic_video:before {
     content: "\e910";
+    color: #FF6565;
   }
   .holberton_school-icon-menu:before {
     content: "\e911";
